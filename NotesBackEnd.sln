@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{B18E0EC3-90EC-47C0-809B-E32D06F5388F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{423602B8-4549-4138-8396-29AFB5B054DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{54D6FB67-AF69-4A4A-A734-A31300B76C4D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{7A1B07B3-0BC8-42EC-9E1E-0F6621E3D716}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notes.Domain", "Notes.Domain\Notes.Domain.csproj", "{ECBDCE50-1DDB-4EE2-BA0E-F4B423D1355E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECBDCE50-1DDB-4EE2-BA0E-F4B423D1355E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECBDCE50-1DDB-4EE2-BA0E-F4B423D1355E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECBDCE50-1DDB-4EE2-BA0E-F4B423D1355E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECBDCE50-1DDB-4EE2-BA0E-F4B423D1355E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ECBDCE50-1DDB-4EE2-BA0E-F4B423D1355E} = {B18E0EC3-90EC-47C0-809B-E32D06F5388F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0828D5E2-FD22-4DB7-B452-69AD93813F9F}
+	EndGlobalSection
+EndGlobal
